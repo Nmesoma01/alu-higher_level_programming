@@ -1,5 +1,6 @@
 #!/usr/bin/node
-const arrV = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-for (let a = 0; a < arrV.length; a++) {
-  console.log(arrV[a]);
+const multiLanguages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+let i = 0;
+for (i = 0; i < multiLanguages.length; i++) {
+  console.log(multiLanguages[i]);
 }
